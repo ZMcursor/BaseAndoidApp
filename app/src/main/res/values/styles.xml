@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="MainTheme" parent="ZMTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="OtherTheme" parent="ZMTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>
