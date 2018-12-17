@@ -5,9 +5,19 @@
         <item name="android:windowIsTranslucent">false</item>
     </style>
 
-    <style name="OtherTheme" parent="ZMTheme">
+    <style name="SplashTheme" parent="ZMTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="BaseTheme" parent="ZMTheme">
         <!-- Customize your theme here. -->
         <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="mainCardTheme" parent="Base.CardView">
+        <!-- Customize your theme here. -->
+        <item name="cardBackgroundColor">@android:color/white</item>
     </style>
 
 </resources>

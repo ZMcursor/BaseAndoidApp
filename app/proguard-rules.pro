@@ -19,3 +19,12 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# 不混淆JavaBean
+-keep class com.zmcurosr.baseandoidapp.model.Bean.**{*;}
+# 不混淆fastjson
+-dontwarn com.alibaba.fastjson.**
+-keep class com.alibaba.fastjson.**{*;}
+-keepattributes Signature
+-keepclassmembers class * implements java.io.Serializable{*;}
+
